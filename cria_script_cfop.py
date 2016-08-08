@@ -5,7 +5,7 @@ Script que lê o CSV com todos os cfop e gera um sql para inserir no BD
 # abre o arquivo csv
 with open('tabela-cfop', 'r') as cfop_file:
     # esqueleto do sql
-    sql = "INSERT INTO controle_estoque_cfop (cfop, descricao) values "
+    sql = "INSERT INTO cfop (cfop, descricao) values "
 
     # lê as linhas
     for linha in cfop_file.readlines():
