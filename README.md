@@ -11,4 +11,5 @@ para
 ```
 sql += "('%s', '%s'), " % (cfop, descricao)
 ```
+- O campo ```descricao``` deverá ser um varchar com tamanho maior que 300, sugiro 350.
 - Executar o script com Python 3
